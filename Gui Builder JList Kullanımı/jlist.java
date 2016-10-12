@@ -10,11 +10,11 @@ import javax.swing.DefaultListModel;
  *
  * @author hanife
  */
-public class sansoyunu extends javax.swing.JFrame {
+public class jlist extends javax.swing.JFrame {
     /**
-     * Creates new form sansoyunu
+     * Creates new form jlist
      */
-    public sansoyunu() {
+    public jlist() {
         initComponents();
     }
     /**
@@ -225,7 +225,7 @@ public class sansoyunu extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new sansoyunu().setVisible(true);
+                new jlist().setVisible(true);
             }
         });
     }
